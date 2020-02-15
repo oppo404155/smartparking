@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main4Activity"
+    tools:showIn="@layout/app_bar_main4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/back"
+        >
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:text="make reservation"
+            android:textStyle="italic"
+            android:onClick="reservation"
+            android:background="@drawable/btn"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:text="find my car"
+            android:textStyle="italic"
+            android:background="@drawable/btn"
+            android:onClick="findecar"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:text="cancel reservation"
+            android:textStyle="italic"
+            android:onClick="cancle"
+            android:background="@drawable/btn"
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:text="last reservation  ID "
+            android:textStyle="italic"
+            android:onClick="lastreservationinf"
+            android:background="@drawable/btn"
+            />
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

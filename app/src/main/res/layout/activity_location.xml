@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".location">
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@drawable/roud"
+         >
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="SLOT 1"
+                android:layout_marginTop="80dp"
+                android:id="@+id/slot1"
+                android:onClick="slot1"
+
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="SLOT 2"
+                android:layout_marginTop="80dp"
+                android:id="@+id/slot2"
+                android:onClick="slot2"
+
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="SLOT 3"
+                android:layout_marginTop="80dp"
+                android:id="@+id/slot3"
+                android:onClick="slot3"
+
+                />
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="SLOT 4"
+                android:layout_marginTop="80dp"
+                android:id="@+id/slot4"
+                android:onClick="slot4"
+                android:layout_marginLeft="20dp"
+
+
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="SLOT 5"
+                android:layout_marginTop="80dp"
+                android:id="@+id/slot5"
+                android:onClick="slot5"
+                android:layout_marginLeft="20dp"
+
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="SLOT 6"
+                android:layout_marginTop="80dp"
+                android:id="@+id/slot6"
+                android:onClick="slot6"
+                android:layout_marginLeft="20dp"
+
+                />
+
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+     </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

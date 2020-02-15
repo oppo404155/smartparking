@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".backtocar">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Enter your Reservation ID here"
+            android:gravity="center"
+            android:id="@+id/ID"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Show"
+            android:layout_gravity="center_horizontal"
+            android:onClick="show"
+            android:background="@drawable/btn"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/dateofreservation"
+            android:textSize="30dp"
+            android:layout_marginBottom="20dp"
+            />
+        <TextView
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/enterancehour"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/exithour"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/slotnumber"
+            android:textSize="30dp"
+            />
+
+
+
+
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
